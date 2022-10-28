@@ -2,7 +2,7 @@
 Clases 
 Cliclo 3 de proyecto MINTIC programa para:
 Desarrollar un aplicativo web que gestione las operaciones propias de la papelería Graffiti, a través de interfaces gráficas claras e intuitivas por módulos de ventas, inventario, clientes y proveedores y dos tipos de roles uno de administrador y otro de vendedor con diferentes permisos y funciones donde se puedan crear, consultar, modificar los productos y servicios que ofrece la papelería. 
-
+VUE
 Objetivo General
 
 Desarrollar un aplicativo web para la automatización de los procesos internos de la Papelería Graffiti.
