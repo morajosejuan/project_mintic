@@ -1,0 +1,163 @@
+<template>
+    <div class="factura">
+        <fieldset>
+
+            <legend>Factura</legend>
+            <form action="">
+
+
+            </form>
+
+        </fieldset>
+
+    </div>
+
+</template>
+
+<script>
+export default {
+    name: "factura-view"
+}
+</script>
+
+<style>
+head {
+    text-align: center;
+    color: black;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+/*nav,
+section,
+article,*/
+footer {
+    margin: 2em;
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+}
+
+body {
+    background-image: url(../../img/depositphotos_58059017.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-style: inherit;
+    font-size: medium;
+    font-feature-settings: "abvm";
+}
+
+.text {
+    text-align: center;
+    color: blue;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.factura {
+    table-layout: fixed;
+}
+
+.fact-info>div>h5 {
+    font-weight: bold;
+}
+
+.factura>thead {
+    border-top: solid 3px #000;
+    border-bottom: 3px solid #000;
+}
+
+.factura>thead>tr>th:nth-child(2),
+.factura>tbod>tr>td:nth-child(2) {
+    width: 300px;
+}
+
+.factura>thead>tr>th:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tbody>tr>td:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tfoot>tr>th,
+.factura>tfoot>tr>th:nth-child(n+3) {
+    font-size: 24px;
+    text-align: right;
+}
+
+.cond {
+    border-top: solid 2px #000;
+}
+
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
