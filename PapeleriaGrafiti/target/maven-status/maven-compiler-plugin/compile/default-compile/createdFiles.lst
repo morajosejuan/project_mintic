@@ -1,0 +1,9 @@
+com\papeleriagrafiti\demo\modelo\entity\Cliente.class
+com\papeleriagrafiti\demo\modelo\entity\Producto_.class
+com\papeleriagrafiti\demo\modelo\entity\Cliente_.class
+com\papeleriagrafiti\demo\modelo\service\ClienteService.class
+com\papeleriagrafiti\demo\modelo\service\ClienteServicempl.class
+com\papeleriagrafiti\demo\controller\ClienteController.class
+com\papeleriagrafiti\demo\modelo\entity\Producto.class
+com\papeleriagrafiti\demo\PapeleriaGrafitiApplication.class
+com\papeleriagrafiti\demo\repository\ClienteRepository.class
